@@ -22,7 +22,7 @@ export default function GarageDoorOpener() {
   
       setLastAction("Garage door opened successfully");
     } catch (err) {
-      // setError("Failed to open garage door. Please try again.");
+      // setError("Failed to oen garage door. Please try again.");
       console.error(err);
     } finally {
       // Always show loading for at least 5 seconds
